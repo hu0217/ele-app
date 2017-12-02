@@ -1,0 +1,90 @@
+地址
+https://restapi.ele.me
+		/bgs/poi/reverse_geo_coding
+		?latitude=22.54286&longitude=114.059563
+天气
+https://restapi.ele.me
+		/bgs/weather/current
+		?latitude=22.54286&longitude=114.059563
+热门词汇
+https://restapi.ele.me
+		/shopping/v3/hot_search_words
+		?latitude=22.54286&longitude=114.059563
+		
+搜索地址
+https://restapi.ele.me/bgs/poi/search_poi_nearby
+		?keyword=%E4%B8%96%E7%95%8C
+		&offset=0&limit=20&longitude=114.059563&latitude=22.54286	
+
+轮播图
+https://restapi.ele.me/shopping/v2/entries
+		?latitude=22.54286&longitude=114.059563&templates[]=main_template
+
+
+
+商家列表
+https://restapi.ele.me/shopping/restaurants
+		?latitude=22.54286&longitude=114.059563&offset=20&limit=20
+		&extras[]=activities&extras[]=tags&extra_filters=home&terminal=h5
+
+
+商家商品接口
+https://restapi.ele.me
+	/shopping/v2/menu
+	?restaurant_id=996991	
+	
+
+商家头部信息
+https://restapi.ele.me
+ 	/shopping/restaurant/996991
+ 	?extras[]=activities&extras[]=albums
+ 	&extras[]=license&extras[]=identification&extras[]=qualification
+ 	&terminal=h5&latitude=22.54286&longitude=114.059563
+
+https://restapi.ele.me/shopping/restaurant/326052?extras[]=activities&extras[]=albums&extras[]=license&extras[]=identification&extras[]=qualification&terminal=h5&latitude=31.23037&longitude=121.473701
+
+
+商家商品评价
+https://restapi.ele.me
+	/ugc/v3/restaurants/996991/ratings
+	?has_content=true&tag_name=%E5%85%A8%E9%83%A8&offset=0&limit=10
+
+评价满意程度
+https://restapi.ele.me/ugc/v2/restaurants/150150420/ratings/tags
+
+评价分数及送货时间
+https://restapi.ele.me/ugc/v2/restaurants/150150420/ratings/scores
+
+
+搜索结果
+https://restapi.ele.me/shopping/v2/restaurants/search
+		?offset=0&limit=20&keyword=%E8%9B%8B%E7%B3%95&latitude=22.54286
+		&longitude=114.059563&search_item_type=3&is_rewrite=1&extras[]=activities
+		&extras[]=coupon&terminal=h5
+		
+搜索切换
+https://restapi.ele.me/shopping/v2/restaurants/search
+       ?offset=0&limit=20&keyword=%E8%B4%A1%E8%8C%B6&latitude=22.54286
+       &longitude=114.059563&search_item_type=3&is_rewrite=1&extras[]=activities
+       &extras[]=coupon&terminal=h5&delivery_mode[]=1
+
+搜索食物结果
+https://restapi.ele.me/shopping/v1/typeahead
+		?kw=%E6%B1%89%E5%A0%A1&latitude=22.54286&longitude=114.059563&city_id=11
+
+分类
+https://restapi.ele.me/shopping/v2/restaurant/category?latitude=22.54286&longitude=114.059563
+
+筛选优惠活动
+https://restapi.ele.me/shopping/v1/restaurants/activity_types
+      ?latitude=22.54286&longitude=114.059563&kw=
+
+筛选人均
+https://restapi.ele.me/shopping/v1/restaurants/filter/attributes/average
+      ?latitude=22.54286&longitude=114.059563&keyword=
+筛选商家属性
+https://restapi.ele.me/shopping/v1/restaurants/activity_attributes
+      ?latitude=22.54286&longitude=114.059563&kw=
+筛选配送方式
+https://restapi.ele.me/shopping/v1/restaurants/delivery_modes
+      ?latitude=22.54286&longitude=114.059563&kw=
